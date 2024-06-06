@@ -81,3 +81,29 @@ const bottle1 = {
   
   }
     
+  // functions
+// defining a function 
+function login(username, password) {
+  // validate username and password
+  if (!username || !password) {
+    return 'username or password not provided';
+  }
+  // verify username and password
+  if (username == 'ellenakosuaa' && password == '1234') {
+    return 'user is logged in';
+     } else {
+       return 'invalid username or password'
+     }
+    
+}
+
+// invoking a function
+login('ellenakosuaa');
+
+// Basic Arithmetic Operations
+11 + 12;
+1 + 0.5;
+43 - 12;
+45 / 7; 
+89 * 8;
+14 % 3
