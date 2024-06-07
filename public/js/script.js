@@ -107,3 +107,37 @@ login('ellenakosuaa');
 45 / 7; 
 89 * 8;
 14 % 3
+
+// Strings in JavaScript 
+// Concatenation
+const firstname = 'Ellen';
+const lastname = 'Ntiamoah';
+const middlename = 'Werempoah'
+firstname + ' ' + middlename + ' ' + lastname;
+
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+
+//String Methods
+
+let fullName = "ellen werempoah ntiamoah"
+fullName.length
+
+for(let i =0; i<= fullName.length -1; i++){
+  console.log(i)
+}
+fullName.toUpperCase()
+fullName.charAt(13)
+fullName.slice(6,15)
+fullName.split("")
+fullName.replace("ntiamoah", "bills")
+fullName.indexOf("poah")
+
+// string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 5000
+console.log(`GHS${amount}`)
+amount.toString()
